@@ -49,6 +49,7 @@ def total_even_pairs(src)
     else
       total
     end
+    i += 1
   end
   return total
 end
