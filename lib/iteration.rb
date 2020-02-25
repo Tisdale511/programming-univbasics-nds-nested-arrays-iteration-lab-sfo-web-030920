@@ -9,7 +9,8 @@ def join_ingredients(src)
   
     i = 0
     while i < src.length do
-      p "I love " + src[i][0] + " and " + src[i][1] + " on my pizza"
+      phrase = "I love " + src[i][0] + " and " + src[i][1] + " on my pizza"
+      new_arr << phrase
       i += 1
     end
 end
