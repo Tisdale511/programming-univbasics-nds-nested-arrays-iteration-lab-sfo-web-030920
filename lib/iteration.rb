@@ -14,6 +14,7 @@ def join_ingredients(src)
       new_arr << phrase
       i += 1
     end
+    return new_arr
 end
 
 def find_greater_pair(src)
