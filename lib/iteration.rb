@@ -24,7 +24,7 @@ def find_greater_pair(src)
   i = 0
   new_arr = []
   while i < src.length do
-    sorted = src.sort
+    sorted = src[i].sort
     new_arr << sorted[1]
     i += 1
   end
